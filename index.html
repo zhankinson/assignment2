@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="author: Zachary Hankinson">
+    <title>ZAH15-Assignment2</title>
+    <link rel="stylesheet" href="CSS/as2.css">
+  </head>
+  <body>
+    <h1>Welcome to the <i>Main</i> finder!</h1>
+    <h2>Please pick a playstyle</h2>
+    <form id="myPlay" action="index.html">
+      <input type="checkbox" name="playstyle" value="Offensive"> Offensive<br>
+      <input type="checkbox" name="playstyle" value="Defensive"> Defensive<br>
+      <input type="checkbox" name="playstyle" value="Flexible"> Flexible<br>
+    </form>
+    <button type="button" name="tostrat" onclick="checkplay()">Next</button>
+    <form id="off" action="index.html">
+      <br>Offensive Strategy:<br>
+      <input type="radio" name="offarchetype" value="All-Rounder"> All-Rounder<br>
+      <input type="radio" name="offarchetype" value="Rushdown"> Rushdown<br>
+      <input type="radio" name="offarchetype" value="Pressurer"> Pressurer<br>
+      <input type="radio" name="offarchetype" value="Hit&ampRun"> Hit &amp Run<br>
+      <input type="radio" name="offarchetype" value="Mix-Up"> Mix-Up<br>
+      <input type="radio" name="offarchetype" value="Zone-Breaker"> Zone-Breaker<br>
+      <input type="radio" name="offarchetype" value="Dominating"> Dominating<br>
+      <input type="radio" name="offarchetype" value="Footsies"> Footsies<br>
+      <input type="radio" name="offarchetype" value="Glass Cannon"> Glass Cannon<br>
+    </form>
+    <form id="def" action="index.html">
+      <br>Defensive Strategy:<br>
+      <input type="radio" name="defarchetype" value="Zoner"> Zoner<br>
+      <input type="radio" name="defarchetype" value="Bait&ampPunish"> Bait&ampPunish<br>
+      <input type="radio" name="defarchetype" value="Trapper"> Trapper<br>
+      <input type="radio" name="defarchetype" value="Turtle"> Turtle<br>
+      <input type="radio" name="defarchetype" value="Keep-Away"> Keep-Away<br>
+      <input type="radio" name="defarchetype" value="Stage-Control"> Stage-Control<br>
+      <input type="radio" name="defarchetype" value="Tag-Team"> Tag-Team<br>
+      <input type="radio" name="defarchetype" value="Grappler"> Grappler<br>
+    </form>
+    <form id="flex" action="index.html">
+      <br>Flexible Strategy:<br>
+      <input type="radio" name="flexarchetype" value="Dynamic"> Dynamic<br>
+      <input type="radio" name="flexarchetype" value="Power"> Power<br>
+      <input type="radio" name="flexarchetype" value="Precision"> Precision<br>
+    </form>
+    <script src="JS/as2.js"></script>
+  </body>
+</html>
