@@ -1,9 +1,64 @@
+body{
+  font-family: verdana;
+  color: #0080ff;
+  background-image: url("../Images/bground2.jpg");
+  background-repeat: repeat;
+  background-attachment: local;
+  background-size: auto;
+}
+fieldset{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: hidden;
+  background-color: #ff884d;
+}
+button{
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+}
+.option{
+  width: 33.3%;
+  margin: auto;
+}
+.play{
+  float: left;
+  margin: auto;
+  width: 33.3%;
+  box-sizing: border-box;
+}
+.portraits{
+  position: absolute;
+  top: 700px;
+}
+.portraits img{
+  height: 60px;
+  right: 3%
+  float: left;
+  margin: auto;
+  visibility: hidden;
+}
+#welcome{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  -webkit-text-stroke-width:.5px;
+  -webkit-text-stroke-color: white;
+}
 #off{
+  float: left;
   visibility: hidden;
 }
 #def{
+  float: left;
   visibility: hidden;
 }
 #flex{
+  float: left;
   visibility: hidden;
 }
